@@ -6,9 +6,9 @@ let redisClient;
 const getRedisClient = () => {
   if (!redisClient) {
     redisClient = redis.createClient({
-      host: 'your-redis-host',
-      port: your-redis-port,
-      password: 'your-redis-password'
+      host: 'db-redis-blr1-55103-do-user-13729304-0.c.db.ondigitalocean.com',
+      port: 25061,
+      password: 'AVNS_3Sj9qjkIRWdTG_4UIph'
     });
 
     redisClient.on('error', (err) => {
